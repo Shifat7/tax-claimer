@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
-@plugin "@tailwindcss/typography";
-
 @theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
   --color-taxmate-50: #f0f7ff;
   --color-taxmate-100: #e0effe;
   --color-taxmate-200: #baddfd;
@@ -14,4 +15,8 @@
   --color-taxmate-800: #064a85;
   --color-taxmate-900: #0b3f6e;
   --color-taxmate-950: #07284a;
+}
+
+html {
+  scroll-behavior: smooth;
 }

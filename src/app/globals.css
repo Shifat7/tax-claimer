@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-taxmate-50: #f0f7ff;
+  --color-taxmate-100: #e0effe;
+  --color-taxmate-200: #baddfd;
+  --color-taxmate-300: #7cc3fc;
+  --color-taxmate-400: #36a5f8;
+  --color-taxmate-500: #0c8ae9;
+  --color-taxmate-600: #006dc7;
+  --color-taxmate-700: #0157a1;
+  --color-taxmate-800: #064a85;
+  --color-taxmate-900: #0b3f6e;
+  --color-taxmate-950: #07284a;
+}
